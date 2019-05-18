@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="川谷金融科技关于我们" />
+    <meta name="keywords" content="私募,私募基金,基金策略指数,私募基金排名,基金数据库,归因分析,基金,基金净值" />
+    <link rel="stylesheet" href="../style/footer.css">
+    <title>川谷尾部</title>
+</head>
+<body>
+<img onclick="returnTop()" class="returnTop" src="../img/returnTop.png"   alt="">
+    <div class="foot_wrap clearfix colfff">
+
+        <div class="container ">
+            <div class="row pt20 foot_border">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6  mt10 hidden-xs">
+                    <img style="width:100%;margin:25px auto" src="../img/footer/logo.png" alt="川谷金融科技" title="川谷金融科技">
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mt10 hidden-xs">
+                    <div class="mCenter1">
+                        <p class="mb10">联系方式</p>
+                        <p><img src="/img/footer/email.png" class="mr10" title="邮箱" alt="邮箱"><span>data@trumgu.com</span></p>
+                        <p><img src="/img/footer/phone.png" class="mr10" title="电话" alt="电话"><span>010-85616870</span></p>
+                        <p style="text-indent: 2em;"><span>&nbsp;&nbsp;4008-717-988</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mt10 visible-xs">
+                    <div class="mCenter1">
+                        <p class="mb10 fs16">联系方式</p>
+                        <div><p>邮箱：</p><span>data@trumgu.com</span></div>
+                        <div style="margin-top: 30px"><p>电话：</p><span> 010-85616870</span><p><span>4008-717-988</span></p></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mt10 hidden-xs">
+                    <div class="mCenter2">
+                        <p class="mb10">关于我们</p>
+                        <p><img src="/img/footer/company.png" class="mr10" title="地址" alt="地址"><span>深圳前海川谷信息技术有限公司</span></p>
+                        <p><img src="/img/footer/url.png" class="mr10" title="网址" alt="网址"><a href="http://www.trumgu.com" target="_blank" rel="nofollow">www.trumgu.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mt10 visible-xs">
+                    <div class="mCenter2">
+                        <p class="mb10 fs16">关于我们</p>
+                        <div><p>地址：</p><span>深圳前海川谷信息技术有限公司</span></div>
+                        <div><p>网址：</p><a href="http://www.trumgu.com" target="_blank" rel="nofollow">www.trumgu.com</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt10">
+                    <p class="ml20 mb10">关注我们</p>
+                    <div class="clearfix">
+                        <div class="img_wrap ml20 ">
+                            <img src="/img/footer/erweima.png"  alt="川谷金融科技" title="川谷金融科技">
+                            <p class="mt5 fs12">川谷金融科技</p>
+                        </div>
+                        <div class="img_wrap financial">
+                            <img src="/img/footer/erweima2.png" alt="基研网官微" title="基研网官微">
+                            <p class="mt5 fs12">基研网官微</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pl10 pr20">
+                <ul id="coorCompany" class="clearfix fs12">
+                    <li><a href="http://jr.jd.com" target="_blank" rel="nofollow" >京东金融</a></li>
+                    <li><a href="https://www.chtwm.com" target="_blank" rel="nofollow">恒天财富</a></li>
+                    <li><a href="http://www.nanhuafunds.com" target="_blank" rel="nofollow">南华基金</a></li>
+                    <li><a href="https://www.citicsf.com" target="_blank" rel="nofollow">中信期货</a></li>
+                    <li><a href="http://www.jzsec.com" target="_blank" rel="nofollow">九州证券</a></li>
+                    <li><a href="https://www.fofweekly.com" target="_blank" rel="nofollow">母基金周刊</a></li>
+                    <li><a href="http://zhengjinhui.cn" target="_blank" rel="nofollow">正金汇</a></li>
+                    <li><a href="http://www.amac.org.cn" target="_blank" rel="nofollow">中国证券投资基金业协会</a></li>
+                </ul>
+            </div>
+
+            <p class="fs12 text-center mt20 mb20">
+              <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow"> 粤ICP备 17082618</a> &nbsp;&nbsp; | &nbsp;&nbsp;  投资有风险，购买需谨慎
+            </p>
+        </div>
+    </div>
+
+    <script>
+        $(window).scroll(function(){
+            console.log('滚动')
+           //console.log($(this).scrollTop())
+            if($(this).scrollTop() > 2000){
+                $('.returnTop').show();
+            }else{
+                $('.returnTop').hide();
+            }
+        });
+        //回到顶部
+        function returnTop(){
+            $("html,body").animate({scrollTop:0},'300')
+        }
+    </script>
+</body>
+</html>

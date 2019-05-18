@@ -1,0 +1,266 @@
+.ab_about {
+	min-height: 800px;
+}
+
+#about_wrap {
+	width: 100%;
+	height: auto;
+	margin-top: 130px;
+	background: #fff;
+}
+
+.ab_con {
+	margin-top: 0;
+	margin-bottom: 100px;
+}
+
+.ab_intro {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.ab_intro h1 {
+	color: #b2971f;
+	font-size: 32px;
+	font-family: '楷体';
+	margin-top: 70px;
+	font-weight: 600;
+}
+
+.ab_intro span {
+	display: inline-block;
+	margin-top: 25px;
+	border-bottom: 1px solid #b2971f;
+	font-size: 20px;
+	color: #b2971f;
+	width: auto;
+}
+
+.ab_intro p {
+	width: 80%;
+	margin: 20px auto;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+}
+
+.ab_tit {
+	font-size: 26px;
+	margin-bottom: 35px;
+	margin-top: 0;
+	padding-left: 20px;
+}
+
+.ab_tit span {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.ab_word {
+	font-size: 20px;
+	font-weight: 500;
+	color: #636365;
+	margin-bottom: 20px;
+}
+
+.le_word {
+	width: 95%;
+	height: 100%;
+    /* float: left; */
+	border: 2px solid #b2971f;
+    /*color: white;*/
+	padding: 18% 5%;
+	border-radius: 10px;
+	position: relative;
+	font-size: 16px;
+	line-height: 35px;
+   /* background: rgba(1,1,1,0.3);*/
+	margin-top: 13px;
+	z-index: 999;
+}
+
+.triangle {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	right: -22px;
+	border-top: 2px solid  #b2971f;
+	border-left: 2px solid  #b2971f;
+	background: #fff;
+	z-index: 20;
+	transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+     /* IE 9 */
+	-moz-transform: rotate(135deg);
+    /* Firefox */
+	-webkit-transform: rotate(135deg);
+ /* Safari 和 Chrome */
+}
+
+.ri_word {
+	width: 95%;
+	height: 100%;
+	/*float: right;*/
+	border: 2px solid #b2971f;
+/*	color:white;*/
+	padding: 11% 5%;
+	border-radius: 10px;
+	position: relative;
+	font-size: 16px;
+	line-height: 35px;
+   /* background:rgba(1,1,1,0.3);*/
+	margin-top: 16px;
+	z-index: 999;
+}
+
+.ri_word a {
+	color: #b2971f;
+	text-decoration: none;
+}
+
+.ri_word a:hover {
+	color: #3399FF;
+	text-decoration: none;
+}
+
+.triangle2 {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	left: -22px;
+	background: #fff;
+	z-index: 20;
+	border-top: 2px solid  #b2971f;
+	border-left: 2px solid  #b2971f;
+	transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+     /* IE 9 */
+	-moz-transform: rotate(-45deg);
+    /* Firefox */
+	-webkit-transform: rotate(-45deg);
+ /* Safari 和 Chrome */
+}
+
+.width100 {
+	width: 100%;
+}
+
+.bg2 {
+	width: 95%;
+	border-radius: 20px!important;
+	background: url(../img/about_us/ab_bj2.png) no-repeat center;
+	background-size: contain;
+	min-height: 330px;
+}
+
+.bg1 {
+	width: 95%;
+	border-radius: 20px!important;
+	background: url(../img/about_us/ab_bj1.png) no-repeat center;
+	background-size: contain;
+	min-height: 330px;
+}
+
+.ab_word a {
+	color: #7E99F4;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.ab_word a:hover {
+	text-decoration: none;
+}
+
+/*
+关于我们结束*/
+
+
+
+.ab_map {
+	min-height: 100px;
+}
+
+.map_con1 {
+	border-radius: 20px;
+	overflow: hidden;
+	padding-left: 3%!important;
+}
+
+#dituContent {
+	border-radius: 20px;
+}
+
+.map_con {
+	border: 1px solid #ccc;
+	padding: 5%;
+	border-radius: 20px;
+}
+
+.map_con p {
+	font-size: 20px;
+	text-align: left;
+	max-width: 300px;
+}
+
+.add_word {
+	width: 95%;
+	height: 100%;
+	float: left;
+	border: 2px solid #b2971f;
+	padding: 18% 5%;
+	border-radius: 10px;
+	position: relative;
+	font-size: 16px;
+	z-index: 999;
+}
+
+#dituContent {
+	min-height: 325px;
+}
+/*地图结束*/
+@media screen and (max-width:996px) {
+	.ab_con {
+		margin-bottom: 0;
+	}
+
+	.ab_intro p {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.mobile {
+		margin-bottom: 60px;
+		z-index: 100;
+	}
+
+	.map_con1 {
+		border-radius: 20px;
+		overflow: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

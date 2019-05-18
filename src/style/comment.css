@@ -1,0 +1,555 @@
+html,body,form,img,table,fieldset,legend {
+	margin: 0;
+	padding: 0;
+}
+
+ul,li,ol {
+	list-style: none;
+}
+
+img,fieldset {
+	border: 0;
+}
+
+img {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 100;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-size: 14px;
+	font-family: "微软雅黑","Microsoft Yahei","Tahoma","Helvetica","STHeiti";
+}
+
+button,input,a {
+	outline: none;
+	border: none;
+}
+
+a:visited {
+	text-decoration: none !important;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav_ul li span {
+	color: #666;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.nav_top {
+	margin-top: 20px;
+}
+
+.navbar {
+	height: 88px;
+	width: 100%;
+	margin-top: 0;
+	border-radius: 0;
+	box-shadow: 0 0 10px #ececec;
+}
+
+.nav_bg {
+	background: white!important;
+}
+
+.navbar-header {
+	margin-top: 10px;
+}
+
+.navbar-brand {
+	margin-right: 60px;
+}
+
+.tap_li {
+	padding: 0 20px;
+}
+
+.tap_li a {
+	color: #020620;
+	font-size: 16px;
+}
+/*导航栏自适应*/
+@media screen and (max-width:1200px) {
+	.tap_li {
+		padding-left: 7px!important;
+		padding-right: 7px!important;
+	}
+
+	.fix_right {
+		position: static!important;
+		z-index: 20;
+		width: 310px!important;
+	}
+
+	.le_word {
+		margin-top: 37px!important;
+		padding: 16% 5%!important;
+	}
+
+	.ri_word {
+		margin-top: 38px!important;
+		padding: 3% 5%!important;
+	}
+}
+
+@media screen and (max-width:996px) {
+	.nav_pad {
+		max-width: 140px;
+		padding: 0!important;
+	}
+
+	.nav_pad>img {
+		width: 100%;
+	}
+
+	.tap_li {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
+	.fix_right {
+		position: static!important;
+		z-index: 20;
+		width: auto!important;
+	}
+
+	.news_left {
+		margin-bottom: 10px!important;
+	}
+
+	.bg1 {
+		background-size: cover!important;
+	}
+
+	.bg2 {
+		background-size: cover!important;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.fix_right {
+		position: static!important;
+		z-index: 20;
+		width: auto!important;
+	}
+
+	.tap_li {
+		padding-left: 18px!important;
+		padding-right: 18px!important;
+	}
+
+	.nav_top {
+		margin-top: 0!important;
+	}
+
+	.nav_pad img {
+		margin: 15px;
+	}
+
+	#about_wrap {
+		margin-top: 0!important;
+	}
+
+	.productList {
+		margin-top: 60px!important;
+	}
+
+	.navbar {
+		height: 60px;
+		width: 100%;
+	}
+
+	.navbar-header {
+		margin-top: 0;
+	}
+
+	.news_right {
+		border-top: none;
+	}
+
+	.tap_li {
+		padding: 0 3px;
+	}
+}
+
+.row {
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+.fontWeight {
+	font-weight: 500;
+}
+
+.bgefefef {
+	background: #efefef;
+}
+
+.bgfff {
+	background: #fff;
+}
+
+.col3 {
+	color: #333;
+}
+
+.fs30 {
+	font-size: 30px;
+}
+
+.fs26 {
+	font-size: 26px;
+}
+
+.fs20 {
+	font-size: 20px;
+}
+
+.fs14 {
+	font-size: 14px;
+}
+
+.fs12 {
+	font-size: 12px;
+}
+
+.fs16 {
+	font-size: 16px;
+}
+
+.fw6 {
+	font-weight: 600;
+}
+.colfff {
+	color: #fff;
+}
+.col3 {
+	color: #333;
+}
+
+.col9 {
+	color: #999;
+}
+
+.col6 {
+	color: #666;
+}
+
+.coldb {
+	color: #dba32c;
+}
+
+.col09 {
+	color: #091337;
+}
+
+.lin24 {
+	line-height: 24px;
+}
+
+.lin20 {
+	line-height: 20px;
+}
+
+.lin36 {
+	line-height: 36px;
+}
+/*padding-left*/
+.pl5 {
+	padding-left: 5px;
+}
+.pl10 {
+	padding-left: 10px;
+}
+.pl20 {
+	padding-left: 20px;
+}
+
+.pl38 {
+	padding-left: 38px;
+}
+/*padding-right*/
+.pr5 {
+	padding-right: 5px;
+}
+
+.pr20 {
+	padding-right: 20px;
+}
+/*padding-top*/
+.pt5 {
+	margin-top: -5px;
+}
+
+.pt10 {
+	padding-top: 10px;
+}
+
+.pt15 {
+	padding-top: 15px;
+}
+
+.pt20 {
+	padding-top: 20px;
+}
+
+.pt30 {
+	padding-top: 30px;
+}
+/*padding-bottom*/
+.pb10 {
+	padding-bottom: 10px;
+}
+
+.pb15 {
+	padding-bottom: 15px;
+}
+
+.pb20 {
+	padding-bottom: 20px;
+}
+.pb30{
+	padding-bottom: 30px;
+}
+/*padding*/
+.padd10 {
+	padding: 10px;
+}
+/*margin-left*/
+.ml5{
+	margin-left: 5px;
+}
+.ml20 {
+	margin-left: 20px;
+}
+/*margin-top*/
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
+.mt88 {
+	margin-top: 88px;
+}
+.mt110 {
+	margin-top: 110px;
+}
+/*margin-right*/
+.mr10 {
+	margin-right: 10px;
+}
+
+.mr15 {
+	margin-right: 15px;
+}
+
+.mr20 {
+	margin-right: 20px;
+}
+/*margin-bottom*/
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+/*登陆*/
+.index_cover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	display: none;
+}
+
+.login {
+	width: 440px;
+	height: 400px;
+	background: #fff;
+	border: 1px solid #ccc;
+	left: 50%;
+	top: 50%;
+	margin-left: -220px;
+	margin-top: -223px;
+	position: absolute;
+}
+
+.login .code {
+	width: 40%;
+}
+
+.login form {
+	margin-top: 40px;
+}
+
+.login p {
+	font-size: 18px;
+	color: #333;
+	margin: 20px;
+}
+
+.login span {
+	display: inline-block;
+	color: #333333;
+	padding: 26px 0 0 20px;
+}
+
+.login .exit {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	cursor: pointer;
+}
+
+.border_bot {
+	border-bottom: 1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+		width: 500px;
+		margin: 30px auto;
+	}
+
+	.modal_warn {
+		width: 350px;
+	}
+}
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+.pR {
+	position: relative;
+}
+
+.pA {
+	position: absolute;
+}
+/*站长统计隐藏*/
+#cnzz_stat_icon_1264830265 {
+	display: none;
+}
+
+/*正确错误提示*/
+.snackbar {
+	background-color: #d2e8cb;
+	border-color: #e1f3d8;
+	color: #67c23a;
+}
+
+.returnTop{
+	position: fixed;
+	bottom:150px;
+	right:50px;
+	cursor: pointer;
+	display:none
+}
+
+.errorbar {
+	background-color: #f3b8ba;
+	border-color: #fedddd;
+	color: #fa5555
+}
+
+.el-message {
+	width: 380px;
+	position: fixed;
+	left: 50%;
+	top: 20px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 15px 15px 15px 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: -190px;
+	z-index: 1200;
+}
+
+@media screen and (max-width:640px) {
+	.el-message {
+		width: 182px!important;
+		left: 30%;
+		top: 50px;
+		margin-left: 0;
+		padding: 10px;
+	}
+}
+
+.tiaozhuanInput {
+	width: 40px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	top: -9px;
+}

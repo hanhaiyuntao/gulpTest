@@ -1,0 +1,105 @@
+.navbar-inverse .container {
+	padding-left: 6.5px;
+	margin-left: auto;
+}
+
+.width100 {
+  		/*background: url(../img/bj.png) no-repeat;*/
+		/*background-size:cover;*/
+	max-height: 390px;
+}
+
+.blank {
+	min-height: 57px;
+}
+
+.download {
+	padding-top: 5%;
+}
+
+.pc img {
+	display: block;
+	width: 85%;
+	margin-top: 40px;
+}
+
+.download {
+	padding-left: 30px!important;
+}
+
+.download h3 {
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.download p {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.download div {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.download img {
+	display: block;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+#down_show {
+	text-align: center;
+}
+
+#down_show h3 {
+	text-align: center;
+}
+
+#down_show p {
+	text-align: center;
+}
+
+#down_show div {
+	text-align: center;
+}
+
+#down_show img {
+	margin: 30px auto;
+}
+
+@media screen and (max-height:860px) {
+	.download {
+		padding-top: 2%;
+	}
+
+	.download h3 {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.download div {
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.download img {
+		display: block;
+		margin-top: 15px!important;
+		cursor: pointer;
+	}
+
+	.pc img {
+		width: 63%!important;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#footer {
+		position: static!important;
+	}
+
+	.download {
+		padding-left: 0!important;
+	}
+}

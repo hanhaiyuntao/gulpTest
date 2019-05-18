@@ -1,0 +1,139 @@
+.width100 {
+	width: 100%;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+.font_a {
+	padding: 0 33px;
+	font-size: 16px;
+	color: #666;
+	cursor: pointer;
+}
+
+.activeA {
+	color: #ee5555;
+}
+
+.pic_card {
+	width: 32%;
+	height: 200px;
+	padding: 20px 20px 0 20px;
+}
+
+.zhSpan {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.borRadius {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+.borColor {
+	border: 1px solid #efefef;
+}
+
+.positName span {
+	padding: 5px;
+	border: 1px solid #efefef;
+}
+
+.card_bot {
+	border-top: 1px dashed #efefef;
+}
+
+.bor_dashed {
+	border: 1px dashed #efefef;
+}
+
+.describe {
+	padding: 20px 20px 0 20px;
+}
+
+.teFont {
+	font-size: 18px;
+	color: #415165;
+	font-weight: 600;
+}
+
+.bntActive {
+	border: 1px solid #999;
+	-webkit-box-shadow: 0 0 20px #ccc;
+	-moz-box-shadow: 0 0 20px #ccc;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.bntUl li {
+	cursor: pointer;
+}
+/* 适配屏幕*/
+@media screen and (max-width:1200px) {
+	.pic_card {
+		width: 31%;
+	}
+
+	.teFont {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.pic_card {
+		width: 37%;
+		height: 220px;
+		padding: 20px 20px 0 20px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.navbar {
+		height: 60px;
+		width: 100%;
+	}
+
+	.navbar-header {
+		margin-top: 0;
+	}
+
+	.pic_card {
+		width: 90%;
+		margin: 10px;
+	}
+
+	.font_a {
+		padding: 0 10px;
+	}
+
+	.teFont {
+		font-size: 14px;
+	}
+}
+
+
+@media screen and (max-width:996px) {
+	.zhSpan {
+		display: inline-block;
+		padding-right: 5px!important;
+	}
+
+	.num {
+		font-size: 12px!important;
+	}
+}
+/*导航栏变化*/
+@media screen and (max-width:640px) {
+	.spanBlock {
+		display: block;
+		width: 100%;
+		padding-left: 10px;
+	}
+
+	.mt88 {
+		margin-top: 60px;
+	}
+        
+}
