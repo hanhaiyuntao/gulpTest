@@ -146,14 +146,3 @@ e. 添加gulp打包任务。在根目录下创建gulpfile.js的配置文件。�
     注意： 这里边的文件目录是按我自己的目录来的，在使用时根据自己的目录自行修改(src是项目文件的总文件，所有项目内容都放到该目录下，打包时文件目录和打包文件目录自行修改)
 
 f: 最后执行gulp默认任务命令就可完成打包编译
-
-//npm install --save-dev gulp
-
-
-//cnpm install gulp-clean-css --save-dev
-// cnpm install gulp-htmlmin --save-dev
-//cnpm install gulp-changed --save-dev
-// cnpm install gulp-uglify --save-dev
-//npm install --save-dev gulp-clean
-//cnpm install --save-dev gulp-babel babel-preset-es2015
-//npm install --save-dev gulp-asset-rev
